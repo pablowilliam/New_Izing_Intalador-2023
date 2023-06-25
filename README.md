@@ -9,6 +9,13 @@ Firstly, you need to download it:
 sudo apt -y update && apt -y upgrade
 sudo apt install -y git
 git clone https://github.com/pablowilliam/New_Izing_Intalador-2023.git
+
+adduser deploy
+(Create a password without special characters and repeat it equally.)
+
+Grant sudo permission to deploy user
+
+sudo usermod -aG sudo deploy
 ```
 
 Now, all you gotta do is making it executable:
