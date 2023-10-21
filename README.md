@@ -2,7 +2,7 @@ Interactive CLI tool for installing and updating Izing.io
 
 ### download & setup
 
-Firstly, you need to download it:
+Primeiramente, você precisa fazer o download:
 
 
 ```bash
@@ -10,15 +10,8 @@ sudo apt -y update && apt -y upgrade
 sudo apt install -y git
 git clone https://github.com/pablowilliam/New_Izing_Intalador-2023.git
 
-adduser deploy
-(Create a password without special characters and repeat it equally.)
 
-Grant sudo permission to deploy user
-
-sudo usermod -aG sudo deploy
-```
-
-Now, all you gotta do is making it executable:
+Agora, precisa dar as permissões:
 
 ```bash
 sudo chmod +x ./New_Izing_Intalador-2023/izing
@@ -26,7 +19,7 @@ sudo chmod +x ./New_Izing_Intalador-2023/izing
 
 ### usage
 
-After downloading and making it executable, you need to **navigate into** the installer directory and **run the script with sudo**:
+Após o download e as permissões estarem como executável, você precisa **navegar dentro** do diretório e **dar o comando com o sudo**:
 
 ```bash
 cd ./New_Izing_Intalador-2023
